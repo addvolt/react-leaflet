@@ -9,6 +9,8 @@
     "lint": "eslint './packages/**/*.ts' './packages/**/*.tsx'",
     "build:core": "(cd packages/core && yarn run build)",
     "build:react-leaflet": "(cd packages/react-leaflet && yarn run build)",
+    "pack:core": "(cd packages/core && npm pack)",
+    "pack:react-leaflet": "(cd packages/react-leaflet && npm pack)",
     "build:website": "(cd packages/website && yarn run build)",
     "build": "yarn run build:core && yarn run build:react-leaflet && yarn run build:website",
     "test:core": "(cd packages/core && yarn test)",
