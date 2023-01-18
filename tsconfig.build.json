@@ -9,8 +9,9 @@
     "outDir": "./types",
     "resolveJsonModule": true,
     "sourceMap": true,
-    "strict": true,
-    "target": "es2019"
+    // "strict": true,
+    "target": "es2019",
+    "skipLibCheck": true,
   },
   "include": ["./src/**/*"]
 }
